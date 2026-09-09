@@ -13,7 +13,6 @@
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-Conclu%C3%ADdo-100%25-27ae60?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/version-1.0-124559?style=for-the-badge&logo=semver&logoColor=white" alt="Version">
   <img src="https://img.shields.io/badge/release-Julho%202026-01161e?style=for-the-badge&logo=calendar&logoColor=white" alt="Release">
 </p>
@@ -31,7 +30,6 @@
   <a href="#-api">🧭 API</a> <b>·</b>
   <a href="#-seguranca">🛡 Segurança</a> <b>·</b>
   <a href="#-desenvolvedores">👥 Devs</a> <b>·</b>
-  <a href="#-agradecimentos">🙏 Agradecimentos</a>
 </p>
 
 <br>
@@ -54,8 +52,6 @@
 
 <table align="center">
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/-Trabalho%20Acad%C3%AAmico-PWE-124559?style=for-the-badge" alt="PWE"></td>
-    <td align="center"><img src="https://img.shields.io/badge/-Conclu%C3%ADdo%20Julho%202026-27ae60?style=for-the-badge" alt="Concluído"></td>
     <td align="center"><img src="https://img.shields.io/badge/-PHP%20Vanilla-777BB4?style=for-the-badge" alt="PHP Vanilla"></td>
   </tr>
 </table>
@@ -70,9 +66,9 @@
 
 <p align="center">
   <blockquote>
-    <strong>Versão:</strong> 1.0 🎉<br>
-    <strong>Lançamento:</strong> Julho de 2026<br>
-    <strong>Status:</strong> Concluído ✅
+    <strong>Versão:</strong> 1.0 <br>
+    <strong>Lançamento:</strong> Junho de 2026<br>
+    <strong>Status:</strong> Concluído 
   </blockquote>
 </p>
 
@@ -638,7 +634,7 @@ SistEstoque/
 
 
 <p align="center">
-  <img src="public/assets/img/extras/sticker.webp" width="120" alt="SistEstoque" style="border-radius: 16px;">
+  <img src="public/assets/img/extras/sticker.webp" width="220" alt="SistEstoque" style="border-radius: 16px;">
 </p>
 
 <h3 align="center">
