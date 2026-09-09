@@ -1,0 +1,67 @@
+body {
+  background-image: url("../img/global/fundo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.swal2-image-round {
+  border-radius: 50% !important;
+  object-fit: cover !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 1.25em auto !important;
+}
+
+.product-img {
+  width: 68px !important;
+  height: 68px !important;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: zoom-in;
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
+}
+
+.product-img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+#previewFotoModal .modal-content {
+  border: none;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+#previewFotoModal .modal-header {
+  background-color: #ffffff;
+  border-bottom: none;
+}
+
+#previewFotoModal .modal-footer {
+  background-color: #ffffff;
+  border-top: none;
+}
+
+#btnSobreOSite {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 1050;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#btnSobreOSite:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+}

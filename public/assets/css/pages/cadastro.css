@@ -1,0 +1,52 @@
+@import url("../global.css");
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+.register-card {
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(160, 175, 190, 0.2);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  max-width: 440px;
+  width: 100%;
+  padding: 2.5rem;
+}
+.form-control {
+  border-radius: 12px;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 1px solid #dee2e6;
+}
+.form-control:focus {
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(25, 135, 84, 0.15);
+}
+.input-group-icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #a0aec0;
+}
+.btn-register {
+  border-radius: 12px;
+  padding: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+.btn-register:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(25, 135, 84, 0.3);
+}
+.brand-logo {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}

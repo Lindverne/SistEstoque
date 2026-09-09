@@ -1,0 +1,53 @@
+.hero-card,
+.form-card {
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+}
+.nav-pills .nav-link {
+  border-radius: 12px;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  color: #4a5568;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  margin-right: 8px;
+}
+.nav-pills .nav-link.active {
+  background: #0d6efd;
+  color: #fff;
+}
+.user-panel {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #fff;
+  border-radius: 18px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+.user-avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #0d6efd;
+}
+.avatar-wrapper {
+  position: relative;
+}
+.avatar-edit {
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  background: #0d6efd;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

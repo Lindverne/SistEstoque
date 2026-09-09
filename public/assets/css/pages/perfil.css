@@ -1,0 +1,50 @@
+.pfp-atual 
+    {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #e2e8f0;
+        box-shadow: 0 4px 16px rgba(0,0,0,.10);
+        cursor: zoom-in;
+        transition: transform .2s;
+        display: block;
+        margin: 0 auto;
+    }
+
+        .pfp-atual:hover 
+        { 
+            transform: scale(1.04);
+        }
+
+        .pfp-hero-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+        .pfp-hero-wrapper small {
+            font-size: 0.72rem;
+            color: #94a3b8;
+        }
+
+#cropperModal .modal-content {
+    border-radius: 24px;
+    border: none;
+    overflow: hidden;
+    background-color: #f8fafc;
+}
+
+#cropperModal .modal-header {
+    background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.cropper-view-box, 
+.cropper-face {
+    border-radius: 50%;
+}
+
+.cropper-modal {
+    background-color: rgba(0, 0, 0, 0.75);
+}
